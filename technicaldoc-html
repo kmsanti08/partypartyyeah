@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/> <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HTML Documentation</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<nav id="navbar">
+  <header><h1>HTML Documentation</h1></header>
+  <ul>
+  <li>
+    <a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Basic_Structure_of_an_HTML_Document">Basic Structure of an HTML Document</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#HTML_Elements_and_Their_Purpose">HTML Elements and Their Purpose</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Attributes_in_HTML">Attributes in HTML</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Forms_in_HTML">Forms in HTML</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#The_Role_of_Semantic_HTML">The Role of Semantic HTML</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Features_Introduced_in_HTML5">Features Introduced in HTML5</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Best_Practices_for_Writing_HTML">Best Practices for Writing HTML</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Common_Mistakes_in_HTML_Development">Common Mistakes in HTML Development</a>
+  </li>
+  <li>
+    <a class="nav-link" href="#Conclusion">Conclusion</a>
+  </li>
+    <li>
+    <a class="nav-link" href="#Reference">Reference</a>
+  </li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+<section class="main-section" id="Introduction_to_HTML">
+  <header>Introduction to HTML</header>
+<p>
+HTML is the foundational language used to create web pages. It structures content and elements on a webpage, which can be further styled with CSS and made interactive with JavaScript. HTML is composed of various elements that define how content should be displayed.
+<ul>
+<li><code>&lt;!DOCTYPE html&gt;</code> – Declares the document type.</li>
+<li><code>&lt;html&gt;</code> – Root element of the HTML document.</li>
+<li><code>&lt;head&gt;</code> – Contains meta information and links.</li>
+<li><code>&lt;title&gt;My Website&lt;/title&gt;</code> – Sets the title of the page.</li>
+<li><code>&lt;body&gt;</code></li>
+</ul>
+</p>
+</section>
+<section class="main-section" id="Basic_Structure_of_an_HTML_Document">
+  <header>Basic Structure of an HTML Document</header>
+  <p>An HTML document consists of several key components:
+  <ul>
+  <li><b>Document Type Declaration</b>– Specifies the version of HTML being used, ensuring that the browser interprets the document correctly.</li>
+  <li><b>HTML Element</b>– Acts as the root container that encompasses the entire document.</li>
+  <li><b>Head Section</b>– Contains metadata about the webpage, including the title displayed on the browser tab, character encoding, linked stylesheets, and scripts.</li>
+  <li><b>Body Section</b>– Includes all visible content on the webpage, such as text, images, links, buttons, and interactive elements.</li>
+  <li><b>Structural Elements</b>– Organizes content into headings, paragraphs, lists, tables, and multimedia components for better readability and functionality.</li>
+</ul>
+  </p>
+</section>
+<section class="main-section" id="HTML_Elements_and_Their_Purpose">
+  <header>HTML Elements and Their Purpose</header>
+  <p>
+    HTML documents are made up of various elements, each serving a distinct function:
+  <ul>
+<li><b>Headings </b>– Used to structure content with different levels of importance.</li>
+<li><b>Paragraphs</b> – Organizes text into readable sections.</li>
+<li><b>Links</b> – Connects one webpage to another, allowing for navigation.</li>
+<li><b>Images</b> – Embeds visual content into a webpage.</li>
+<li><b>Lists</b> – Formats information into ordered or unordered groups.</li>
+  </ul>
+  </p>
+</section>
+<section class="main-section" id="Attributes_in_HTML">
+  <header>Attributes in HTML</header>
+  <p>
+    Attributes provide additional information about elements, modifying their behavior or appearance. These are always included within the element’s opening declaration.
+    <ul>
+    <li><b>Hyperlink Destination</b> – Specifies the URL that a link should direct users to.</li>
+    <li><b>Target Attribute</b> – Defines how a link should open, such as in a new tab.</li>
+    <li><b>Class and ID</b> – Assigns styling rules and unique identifiers for customization.</li>
+    <li><b>Inline Styling</b> – Adds custom formatting within an element.</li>
+    <li><b>Tooltips</b> – Displays additional information when hovering over an element.</li>
+    </ul>
+  </p>
+</section>
+<section class="main-section" id="Forms_in_HTML">
+  <header>Forms in HTML</header>
+  <p>Forms allow users to submit data, often including fields for text input, selection choices, and action buttons. They are commonly used for search bars, login pages, and feedback sections.
+  <ul>
+  <li><b>Text Fields</b> – Enables users to type information.</li>
+  <li><b>Checkboxes and Radio Buttons</b> – Allows users to make single or multiple selections.</li>
+  <li><b>Dropdown Menus</b> – Provides a list of options to choose from.</li>
+  <li><b>Action Buttons</b> – Triggers functions such as submitting data.</li>
+  <li><b>Groupings</b> – Organizes related form fields for clarity.</li>
+ </ul>
+  </p>
+</section>
+<section class="main-section" id="The_Role_of_Semantic_HTML">
+  <header>The Role of Semantic HTML</header>
+  <p>
+    Semantic HTML enhances the meaning of web content, improving accessibility and search engine optimization.
+    <ul>
+    <li><b>Headers and Footers</b> – Defines introductory and concluding sections of a webpage.</li>
+    <li><b>Navigation Sections</b> – Organizes internal and external links for easy access.</li>
+    <li><b>Content Groupings</b> – Helps structure main sections of a webpage.</li>
+    <li><b>Standalone Content Blocks</b> – Represents articles, sidebars, and additional information.</li>
+    <li><b>Main Content Area</b> – Highlights the core information of the webpage.</li>
+      </ul>
+  </p>
+</section>
+<section class="main-section" id="Features_Introduced_in_HTML5">
+  <header>Features Introduced in HTML5</header>
+  <p>HTML5 introduced several enhancements, improving both structure and functionality:
+    <ul>
+    <li><b>New Structural Elements</b> – Provides better organization and readability for content.</li>
+    <li><b>Enhanced Form Controls</b> – Expands input field capabilities, such as color selection and date pickers.</li>
+    <li><b>Multimedia Integration</b> – Enables audio and video embedding without additional plugins.</li>
+    <li><b>Advanced APIs</b> – Supports interactive and location-based web features.</li>
+    <li><b>Responsive Design Adaptations</b> – Optimizes pages for different screen sizes and devices.</li>
+    </ul>
+  </p>
+</section>
+<section class="main-section" id="Best_Practices_for_Writing_HTML">
+  <header>Best Practices for Writing HTML</header>
+  <p>
+  <ul>
+  <li><b>Use Descriptive Elements</b> – Ensures content is well-organized and accessible.</li>
+  <li><b>Validate Code</b> – Checks for errors to maintain consistency across browsers.</li>
+  <li><b>Maintain Readability</b> – Uses indentation and comments for structured code.</li>
+  <li><b>Separate Styling and Scripting</b> – Enhances maintainability by using external files.</li>
+  <li><b>Ensure Compatibility</b> – Tests webpages on multiple browsers and devices.</li>
+  <li><b>Optimize Performance</b> – Minimizes unnecessary content and file sizes.</li>  
+  </ul>
+  </p>
+</section>
+<section class="main-section" id="Common_Mistakes_in_HTML_Development">
+  <header>Common Mistakes in HTML Development</header>
+  <p>
+  <ul>
+  <li><b>Leaving Elements Unclosed</b> – Ensures all tags are properly opened and closed.</li>
+  <li><b>Overusing Inline Styling</b> – Encourages external stylesheets for maintainability.</li>
+  <li><b>Incorrectly Declaring Document Type</b> – Guarantees consistent rendering across browsers.</li>
+  <li><b>Neglecting Accessibility Features</b> – Improves usability for all users, including those with disabilities.</li>
+  <li><b>Improper Element Nesting</b> – Follows correct hierarchy and structure to prevent rendering issues.</li>
+  </ul>
+  </p>
+</section>
+<section class="main-section" id="Conclusion">
+  <header>Conclusion</header>
+  <p>HTML forms the backbone of web development, defining the structure of every webpage. When combined with CSS and JavaScript, it enables the creation of dynamic, visually appealing, and interactive websites. Understanding semantic elements, attributes, and best practices ensures a well-structured, accessible, and efficient web experience.</p>
+</section>
+<section class="main-section" id="Reference">
+  <header>Reference</header>
+  <article>
+    <ul>
+      <li>
+        "All documentation in this page is referenced from:"
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN</a>
+        </li>
+      </ul>
+    </article>
+  </section
+
+
+  </main>
+</body>
+</html>
